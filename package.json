@@ -1,0 +1,26 @@
+{
+  "name": "lwc-component",
+  "version": "1.0.0",
+  "description": "Use this to create an lwc component",
+  "bin": {
+    "greet": "./bin/lwc-component.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Templarian/lwc-component.git"
+  },
+  "keywords": [
+    "lwc",
+    "component"
+  ],
+  "author": "Austin Andrews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Templarian/lwc-component/issues"
+  },
+  "homepage": "https://github.com/Templarian/lwc-component#readme",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "yargs-interactive": "^3.0.0"
+  }
+}
