@@ -122,7 +122,7 @@ yargsInteractive()
         console.log(`  ├── ${colors.blue(result.component)}/`);
         if (result.unit) {
             console.log(`  │   ├── ${colors.blue(`__tests__`)}/`);
-            console.log(`  │   │   └── ${colors.blue(`${result.component}.test.js`)}`);
+            console.log(`  │   │   └── ${colors.blue(`${result.component}.test.${isTypeScript ? 'ts' : 'js'}`)}`);
         }
         if (result.wdio) {
             console.log(`  │   ├── ${colors.blue(`__wdio__`)}/`);

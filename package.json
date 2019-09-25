@@ -1,6 +1,6 @@
 {
   "name": "lwc-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use this to create an lwc component",
   "bin": {
     "greet": "./bin/lwc-component.js"
