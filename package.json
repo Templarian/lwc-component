@@ -1,9 +1,9 @@
 {
   "name": "lwc-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use this to create an lwc component",
   "bin": {
-    "greet": "./bin/lwc-component.js"
+    "lwc-component": "./bin/lwc-component.js"
   },
   "repository": {
     "type": "git",
